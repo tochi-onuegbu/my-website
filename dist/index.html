@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tochi Onuegbu - Personal Website </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Slab:700'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <canvas id="stars"></canvas>
+    <canvas id="yahia"></canvas>
+    <div class="container">
+      <div class="template color-yellow" data-template="home">
+
+        <!-- HEADER -->
+        <div class="entire-header">
+          <header>
+            <div class="header">
+              <h1><span>Hello! My name is<br></span>
+                <span><mark>Tochi Onuegbu</mark></span>
+              </h1>
+
+              <h2><span>I'm glad you're here!</span></h2>
+
+              <!--
+              <div class="links">
+                <a class="link color-green" href="#experiences" title="Explore my experiences">Background</a>
+                <a class="link color-yellow" href="#projects" title="Browse my projects">Interests</a>
+                <a class="link color-red" href="https://www.linkedin.com/in/tochi-onuegbu-83a60223b/"
+                  title="View my LinkedIn profile">Experience</a>
+                <a class="link color-yellow" href="#projects" title="Browse my projects">Projects</a>
+                <a class="link color-yellow" href="#projects" title="Browse my projects">TechStack</a>
+              </div> -->
+            </div>
+          </header>
+        </div>
+
+        <div orientation="left" class="side__StyledSideElement-sc-1duznzb-0 hOvuuP">
+          <ul class="social__StyledSocialList-anu6nt-0 dVLQAC fade-enter-done">
+            <li><a href="mailto:tochionuegbu@gmail.com" target="_blank" rel="noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>svg{fill:#a8b2d1}</style>
+                <title>Email</title>
+                <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tochi-onuegbu-83a60223b/" aria-label="LinkedIn" target="_blank"
+                rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <style>svg{fill:#a8b2d1}</style>
+                  <title>LinkedIn</title>
+                  <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.oit.duke.edu/teo7" aria-label="GitLab" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <style>svg{fill:#a8b2d1}</style>
+                  <title>GitLab</title>
+                  <path d="M503.5 204.6L502.8 202.8L433.1 21.02C431.7 17.45 429.2 14.43 425.9 12.38C423.5 10.83 420.8 9.865 417.9 9.57C415 9.275 412.2 9.653 409.5 10.68C406.8 11.7 404.4 13.34 402.4 15.46C400.5 17.58 399.1 20.13 398.3 22.9L351.3 166.9H160.8L113.7 22.9C112.9 20.13 111.5 17.59 109.6 15.47C107.6 13.35 105.2 11.72 102.5 10.7C99.86 9.675 96.98 9.295 94.12 9.587C91.26 9.878 88.51 10.83 86.08 12.38C82.84 14.43 80.33 17.45 78.92 21.02L9.267 202.8L8.543 204.6C-1.484 230.8-2.72 259.6 5.023 286.6C12.77 313.5 29.07 337.3 51.47 354.2L51.74 354.4L52.33 354.8L158.3 434.3L210.9 474L242.9 498.2C246.6 500.1 251.2 502.5 255.9 502.5C260.6 502.5 265.2 500.1 268.9 498.2L300.9 474L353.5 434.3L460.2 354.4L460.5 354.1C482.9 337.2 499.2 313.5 506.1 286.6C514.7 259.6 513.5 230.8 503.5 204.6z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://figma.com" target="_blank" rel="noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <style>svg{fill:#a6b2d4}</style>
+                  <title>Figma</title>
+                  <path d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.86 8.17 6.82"></path>
+
+        <div orientation="right" class="side__StyledSideElement-sc-1duznzb-0 jSIwrL">
+          <div class="navbaritems">
+            <a href="#background" title="Background">Background</a>
+            <a href="#interests" title="Interests">Interests</a>
+            <a href="#experience" title="Experience">Experience</a>
+            <a href="#projects" title="Projects">Projects</a>
+            <a href="#techstack" title="TechStack">TechStack</a>
+        </div>
+        </div>
+
+        <div class="allsections">
+          <!-- BACKGROUND -->
+          <section id="background" class="bgsection">
+            <div class="title">Background</div>
+            <div class="bgcontent">
+              <p style="margin-bottom:20px;">I am a junior at 
+                <a class="underline-link" href="https://duke.edu" target="_blank">Duke University</a> pursuing a 
+                <a class="underline-link" href="https://cs.duke.edu" target="_blank">Computer Science</a> degree and a
+                minor in Visual Media Studies, with a 
+                <a class="underline-link" href="https://scienceandsociety.duke.edu/learn/undergraduate-programs/ss-certificate/digital-intelligence/" target="_blank">Digital Intelligence Certificate.</a>
+                I am passionate about mobile application development, web programming, software engineering, and front-end implementation. 
+                <a class="underline-link" href="#experience" title="Experience">Through my experiences</a> working in software developing roles, 
+                I became more keen about implementing designs that enhance the user experience. I enjoy developing applications that are accessible and
+                inclusive. </p>
+
+              <p>In my free time, you can find me dancing or enjoying the breeze at
+                a lake! </p>
+          </section>
+
+          <!-- INTERESTS -->
+          <section id="interests" class="intsection">
+            <div class="title">Interests</div>
+            <div class="intcontent">
+              <table>
+                <tr>
+                  <td>
+                    <i class="fa-solid fa-code" style="color: #D7D6D6;"></i>
+                    <p>Web Development</p>
+                  </td>
+                  <td>
+                    <svg class ="fa-solid" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#D7D6D6}</style><path d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+                    <p>iOS Development</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fa-solid fa-pen" style="color: #D7D6D6;"></i>
+                    <p>Software Design <br> 
+                      and Implementation</p>
+                  </td>
+                  <td>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#d7d6d6}</style><path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm161.5-86.1c-12.2-5.2-26.3 .4-31.5 12.6s.4 26.3 12.6 31.5l11.9 5.1c17.3 7.4 35.2 12.9 53.6 16.3v50.1c0 4.3-.7 8.6-2.1 12.6l-28.7 86.1c-4.2 12.6 2.6 26.2 15.2 30.4s26.2-2.6 30.4-15.2l24.4-73.2c1.3-3.8 4.8-6.4 8.8-6.4s7.6 2.6 8.8 6.4l24.4 73.2c4.2 12.6 17.8 19.4 30.4 15.2s19.4-17.8 15.2-30.4l-28.7-86.1c-1.4-4.1-2.1-8.3-2.1-12.6V235.5c18.4-3.5 36.3-8.9 53.6-16.3l11.9-5.1c12.2-5.2 17.8-19.3 12.6-31.5s-19.3-17.8-31.5-12.6L338.7 175c-26.1 11.2-54.2 17-82.7 17s-56.5-5.8-82.7-17l-11.9-5.1zM256 160a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>
+                    <p>Accessibility and Diversity</p>
+                  </td>
+                </tr>
+              </table>
+
+          </section>
+
+          <!-- EXPERIENCES -->
+          <section id="experience" class="expsection">
+            <div class="title">Relevant Experience</div>
+            <div class="expcontent">
+              <div class="jobs">
+
+                <!--first job-->
+                <div class="firstjob">
+                  <div class="company-place-time">
+                    <div class="company"><a class="underline-link" href="https://codeplus.duke.edu" target="_blank">Code+</a></div>
+                    <div class="place">Durham, NC</div>
+                    <div class="time">May 2023 - Present</div>
+                  </div>
+                  <div class="position">Software Engineer</div>
+                  <div class="job-description">
+                    <ul class="cool-list">
+                      <li>Collaborate with a <a class="underline-link" href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank">team of six students</a> using Xcode's Storyboard interface to develop<br>
+                        an attendance tracking app with NFC technology to boost classroom  attendance by at least 75%</li>
+                      <li>Using Ruby on Rails and PostgreSQL to implement the back-end web application</li>
+                      <li>Researching optimal user interface design to streamline attendance records for <br> professors
+                        and
+                        students</li>
+                      <li>Meet with <a class="underline-link" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank">stakeholders</a> every week to refine the minimal viable product</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!--second job-->
+                <div class="secondjob">
+                  <div class="company-place-time">
+                    <div class="company"><a class="underline-link" href="https://codingmindsacademy.com" target="_blank">Coding Minds</a></div>
+                    <div class="place">Remote</div>
+                    <div class="time">July 2023 - Present</div>
+                  </div>
+                  <div class="position">Mobile App Development Instructor</div>
+                  <div class="job-description">
+                    <ul class="cool-list">
+                      <li>Lead weekly one-on-one, project-based HTML, CSS, and Flutter classes to a K-12 student</li>
+                      <li>Guide students to publish the Flutter app in Google Play or Apple Store</li>
+                      <li>Revise HTML curriculum development and web prototyping</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!--third job-->
+                <div class="thirdjob">
+                  <div class="company-place-time">
+                    <div class="company"><a>CrunchTime</a></div>
+                    <div class="place">Durham, NC</div>
+                    <div class="time">July 2022 - Present</div>
+                  </div>
+                  <div class="position">Software Designer and Developer</div>
+                  <div class="job-description">
+                    <ul class="cool-list">
+                      <li>Designing CrunchTime's UX front-end in Figma to facilitate student project
+                        breakdown <br> into smaller units</li>
+                      <li>Self-learned the programming language Swift to build CrunchTime on Xcode</li>
+                      <li>Meet monthly with co-developer for progress checks</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!--fourth job-->
+                <div class="fourthjob">
+                  <div class="company-place-time">
+                    <div class="company"><a class="underline-link" href="https://hackduke.org" target="_blank">HackDuke</a></div>
+                    <div class="place">Durham, NC</div>
+                    <div class="time">July 2022 - Present</div>
+                  </div>
+                  <div class="position">Software Designer and Developer</div>
+                  <div class="job-description">
+                    <ul class="cool-list">
+                      <li>Teamed up with a pair of students to design an ADHD-friendly scheduling and journaling<br>
+                        website for documenting
+                        daily activities</li>
+                      <li>Implemented key features and elements that are crucial to enable an inclusive and <br>
+                        accessible user experience</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- PROJECTS -->
+          <section id="projects" class="projsection">
+            <div class="title">Projects</div>
+            <div class="projcontent">
+
+
+              <div class="dukeattend">
+                <img class="dukeproject_pic"
+                  src="/Users/tochionuegbu/Desktop/my website/dist/images/dukeattend-clearpxStudio-Project-3.png" alt="">
+                <figcaption class="project_caption">
+                  <div class="project_name">
+                    <a>DukeAttend</a>
+                  </div>
+                  <p>An attendance tracking app that encapsulates an iOS app, which students uses to check in, and a web app, which is the professor's 
+                    primary interface. </p>
+                  <p style="padding-top: 20px;">
+                    <a class="underline-link" href="https://youtu.be/PHaLQnKrUZQ" target="_blank">View the Demo →</a>
+                  </p>
+                </figcaption>
+              </div>
+
+              <div class="crunchtime">
+                <img class="crunchproject_pic"
+                  src="/Users/tochionuegbu/Desktop/my website/dist/images/crunchtime-clearpxStudio-Project.png" alt="">
+                <figcaption class="project_caption">
+                  <div class="project_name">
+                    <a>CrunchTime</a>
+                  </div>
+                  <p>Help students utilize their time by breaking big projects down into smaller "bites" — excuse the pun. </p>
+                </figcaption>
+              </div>
+
+              <div class="snakegame">
+                <img class="snaproject_pic"
+                  src="/Users/tochionuegbu/Desktop/my website/dist/images/snakegame-3.png" alt="">
+                <figcaption class="project_caption">
+                  <div class="project_name">
+                    <a>Snake Game</a>
+                  </div>
+                  <p>Simple program that enables the active user to control a snake <br>
+                    and eat as many apples as possible. Just don't run into the walls <br>
+                    or it's game over!</p>
+                </figcaption>
+              </div>
+
+
+
+          </section>
+
+          <!-- TECHSTACK -->
+          <section id="techstack"class="techsection">
+            <div class="title">TechStack</div>
+            <div class="techcontent">
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" />
+                <div class="tech-name">Xcode</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                <div class="tech-name">Swift</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <div class="tech-name">HTML</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <div class="tech-name">CSS</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                <div class="tech-name">Javascript</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                <div style="line-height: 18px; text-align: center;"class="tech-name">Ruby on <br>
+                  Rails</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" />
+                <div class="tech-name">PostgreSQL</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <div class="tech-name">Python</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                <div class="tech-name">Java</div>
+              </div>
+              <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" />
+                <div class="tech-name">GitLab</div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+        <!-- footer -->
+        <footer>
+          <small style="color: rgb(175, 175, 191); margin-left: 170px">Designed and coded by Tochi Onuegbu. Design inspired by Brittany Chiang. Header wrapper credited to Yahia Refaiea.</small>
+        </footer>
+      </div>
+
+      <div class="loading" id="identity" title="Tochi Onuegbu identity">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <a class="loading" id="signature" href="https://beta.yahiarefaiea.com/" title="Go to home" target="_blank"></a>
+    </div>
+  </div>
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+  <script src='//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js'></script>
+  <script src="./script.js"></script>
+
+  <!-- Add this script in your HTML, preferably just before the closing </body> tag -->
+<!-- Add this script in your HTML, preferably just before the closing </body> tag -->
+<script>
+  // Function to smoothly scroll to the target section with custom duration
+  function smoothScroll(target, duration) {
+    const headerOffset = 50; // Adjust this value if you have a fixed header/navbar
+    const targetElement = document.querySelector(target);
+    const targetPosition = targetElement.getBoundingClientRect().top;
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - headerOffset;
+    let startTime = null;
+
+    function scrollAnimation(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const scrollStep = Math.round(easeInOutQuad(timeElapsed, startPosition, distance, duration));
+      window.scrollTo(0, scrollStep);
+      if (timeElapsed < duration) requestAnimationFrame(scrollAnimation);
+    }
+
+    // Easing function for smooth animation
+    function easeInOutQuad(t, b, c, d) {
+      t /= d / 2;
+      if (t < 1) return c / 2 * t * t + b;
+      t--;
+      return -c / 2 * (t * (t - 2) - 1) + b;
+    }
+
+    requestAnimationFrame(scrollAnimation);
+  }
+
+  // Add a click event listener to each navigation link
+  const navLinks = document.querySelectorAll(".navbaritems a");
+  navLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const target = link.getAttribute("href");
+      const duration = 1000; // Adjust this value to control the scrolling duration in milliseconds
+      smoothScroll(target, duration);
+    });
+  });
+</script>
+
+
+
+  
+
+
+</body>
+
+</html>
