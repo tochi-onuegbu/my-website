@@ -55,10 +55,152 @@
     padding-right: 40px;
     overflow-wrap: break-word;
     white-space: normal;
+    text-align: left;
+    margin-right: 0px;
+  }
+
+  .cool-list li{
+    width: 600px;
+  }
+
+  .job-description{
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  .firstjob{
+    height: 400px;
+    margin-bottom: 52px;
+  }
+  .secondjob{
+    height: 308px;
+    margin-bottom: 52px;
+    margin-top: 52px;
   }
 
   .expcontent{
     height: 1200px;
+  }
+  .job-description{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    flex-shrink: 0;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 295px;
+    max-width: 650px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 90px;
+  }
+  
+  
+  .jobs{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 132px;
+    line-height: 24px;
+    margin-bottom: 100px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .firstjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 390px;
+    line-height: 24px;
+    margin-bottom: 45px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .secondjob, .thirdjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 250px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company-place-time{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    justify-content: space-between;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-box-pack: justify;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 95px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+  }
+  .time{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 126px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .position{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+  .projsection {
+    margin-top: 110px;
   }
   .projsection .title{
     margin-left: 50px;
@@ -106,13 +248,47 @@
   .techsection .title{
     margin-left: 50px;
   }
+  .techsection{
+    margin-top: 50px;
+    padding-top: 0px;
+  }
+  .intsection{
+    margin-top: 130px;
+  }
+  .expsection{
+    padding-top: 70px;
+  }
 
   footer p{
   color: rgb(175, 175, 191);
   line-height: 20px;
   font-size: 10px;
   margin-left: 150px;
+  }
 
+  .techsection {
+    top: 3000px;
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    height: 660px;
+    line-height: 24px;
+    opacity: 1;
+    padding-bottom: 300px;
+    padding-left: 0px;
+    padding-right: 270px;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.694, 0, 0.335, 1);
+    visibility: visible;
+    width: 1357px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-pack: center;
+    margin-left: 50px;
+    padding-top: 430px;
+    
   }
 }
  
@@ -147,6 +323,126 @@
   .intcontent td:nth-child(1) {
     border-right: 1px solid #82a4b1; 
   }
+  .job-description{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    flex-shrink: 0;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 295px;
+    max-width: 650px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 90px;
+  }
+  
+  
+  .jobs{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 632px;
+    line-height: 24px;
+    margin-bottom: 100px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .firstjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 48px;
+    line-height: 24px;
+    margin-bottom: 345px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .secondjob, .thirdjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 48px;
+    line-height: 24px;
+    margin-bottom: 235px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company-place-time{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    justify-content: space-between;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-box-pack: justify;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 95px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+  }
+  .time, .place{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 126px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .place{
+    margin-left: 90px;
+  }
+  .position{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  
+  }
  }
 
  @media only screen and (min-width: 1268px) {
@@ -167,6 +463,151 @@
   
   .intcontent td:nth-child(1) {
     border-right: 1px solid #82a4b1; 
+  }
+  .job-description{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    flex-shrink: 0;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 295px;
+    max-width: 650px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 90px;
+  }
+  
+  
+  .jobs{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 632px;
+    line-height: 24px;
+    margin-bottom: 100px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .firstjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 48px;
+    line-height: 24px;
+    margin-bottom: 345px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .secondjob, .thirdjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 48px;
+    line-height: 24px;
+    margin-bottom: 235px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company-place-time{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    justify-content: space-between;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-box-pack: justify;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 95px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+  }
+  .time, .place{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 126px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .place{
+    margin-left: 90px;
+  }
+  .position{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+
+  .techsection {
+    top: 3000px;
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    height: 660px;
+    line-height: 24px;
+    opacity: 1;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 270px;
+    padding-top: 100px;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.694, 0, 0.335, 1);
+    visibility: visible;
+    width: 1357px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-pack: center;
+    margin-top: 550px;
+    margin-left: 50px;
   }
 
 
@@ -630,126 +1071,7 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
 }
 
 
-.job-description{
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: block;
-  flex-shrink: 0;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  height: 295px;
-  max-width: 650px;
-  line-height: 24px;
-  visibility: visible;
-  width: 650px;
-  -webkit-font-smoothing: antialiased;
-  margin-right: 90px;
-}
 
-
-.jobs{
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: block;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  height: 632px;
-  line-height: 24px;
-  margin-bottom: 100px;
-  visibility: visible;
-  width: 650px;
-  -webkit-font-smoothing: antialiased;
-}
-.firstjob{
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: block;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  height: 48px;
-  line-height: 24px;
-  margin-bottom: 345px;
-  visibility: visible;
-  width: 650px;
-  -webkit-font-smoothing: antialiased;
-}
-
-.secondjob, .thirdjob{
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: block;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  height: 48px;
-  line-height: 24px;
-  margin-bottom: 235px;
-  visibility: visible;
-  width: 650px;
-  -webkit-font-smoothing: antialiased;
-}
-.company-place-time{
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: flex;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  height: 24px;
-  justify-content: space-between;
-  line-height: 24px;
-  visibility: visible;
-  width: 650px;
-  -webkit-box-pack: justify;
-  -webkit-font-smoothing: antialiased;
-}
-.company{
-  box-sizing: border-box;
-  color: rgb(255, 255, 255);
-  display: block;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  height: 24px;
-  line-height: 24px;
-  visibility: visible;
-  width: 95px;
-  -webkit-font-smoothing: antialiased;
-  font-weight: bold;
-}
-.time, .place{
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: block;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  height: 24px;
-  line-height: 24px;
-  visibility: visible;
-  width: 126px;
-  -webkit-font-smoothing: antialiased;
-}
-.place{
-  margin-left: 90px;
-}
-.position{
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: block;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  height: 24px;
-  line-height: 24px;
-  visibility: visible;
-  width: 650px;
-  -webkit-font-smoothing: antialiased;
-
-}
 
 .cool-list {
   list-style-type: none; /* Remove default bullet points */
@@ -826,7 +1148,7 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
   margin-bottom: 20px;
   border-radius: 8px;
   transition: transform 0.2s ease;
-  top: 3050px;
+  top: 3250px;
   right: 280px;
 }
 
@@ -890,7 +1212,7 @@ width: 550px;
   margin-bottom: 20px;
   border-radius: 8px;
   transition: transform 0.2s ease;
-  top: 3790px;
+  top: 3900px;
   right: 400px;
 }
 
@@ -923,30 +1245,7 @@ margin-top: 100px;
   font-size: 14px;
 }
 
-.techsection {
-  top: 3000px;
-  box-sizing: border-box;
-  color: rgb(175, 175, 191);
-  display: flex;
-  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-  height: 660px;
-  line-height: 24px;
-  opacity: 1;
-  padding-bottom: 100px;
-  padding-left: 0px;
-  padding-right: 270px;
-  padding-top: 100px;
-  transition-delay: 0s;
-  transition-duration: 0.6s;
-  transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.694, 0, 0.335, 1);
-  visibility: visible;
-  width: 1357px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-box-pack: center;
-  margin-top: 550px;
-  margin-left: 50px;
-}
+
 
 .techcontent{
   box-sizing: border-box;
@@ -1101,7 +1400,7 @@ img {
   position: relative;
   overflow: hidden;
   height: 100%;
-  min-height: 5800px;
+  min-height: 5850px;
   cursor: move;
   cursor: grab;
   cursor: -moz-grab;
