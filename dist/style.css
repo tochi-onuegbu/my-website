@@ -3,7 +3,175 @@
  */
 
  
+ @media only screen and (max-width: 600px) {
+  .header h1{
+    color: red;
+  }
+ }
+ 
+ 
+ @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .header h1{
+    color: rgb(0, 162, 255);
+  }
+ }
+ 
+ @media only screen and (min-width: 768px) and (max-width: 1120px) {
+  .header h1{
+    color: rgb(0, 255, 51);
+    font-size: 70px;
+  }
+  .entire-header {
+    padding-top: 28%;
+    padding-left: 110px;
+  }
 
+  .bgcontent{
+    padding-right: 250px;
+  }
+
+  .intcontent table {
+    border-collapse: collapse;
+    border: none;
+    width: 460px;
+  }
+  .intcontent td {
+    padding: 10px;
+    text-align: center;
+  }
+  .intcontent tr:first-child td {
+    border-bottom: 1px solid #82a4b1; 
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .intcontent td:nth-child(1) {
+    border-right: 1px solid #82a4b1; 
+  }
+
+  .expsection .title{
+    margin-left: 100px;
+    width: 200px;
+    padding-right: 40px;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  .expcontent{
+    height: 1200px;
+  }
+  .projsection .title{
+    margin-left: 50px;
+  }
+  .dukeattend .dukeproject_pic{
+    width: 550px;
+    left: 112px;
+    margin-top: 200px;
+  }
+  .dukeattend .project_caption{
+    width: 450px;
+    margin-left: 100px;
+    max-width: 450px;
+    max-height: 200px;
+    padding-bottom: 20px;
+    left: 130px;
+  }
+  .crunchtime .project_caption{
+    max-width: 550px;
+    width: 450px;
+    right: 460px;
+  }
+  .crunchtime .crunchproject_pic{
+    width: 450px;
+    left: 100px;
+    margin-top: 150px;
+  }
+  .snakegame .snaproject_pic{
+    width: 400px;
+    left: 112px;
+    margin-top: 80px;
+  }
+  .snakegame .project_caption{
+    width: 450px;
+    margin-left: 100px;
+    max-width: 450px;
+    max-height: 200px;
+    padding-bottom: 20px;
+    left: 130px;
+  }
+
+  .techcontent{
+    padding-right: 150px;
+  }
+  .techsection .title{
+    margin-left: 50px;
+  }
+
+  footer p{
+  color: rgb(175, 175, 191);
+  line-height: 20px;
+  font-size: 10px;
+  margin-left: 150px;
+
+  }
+}
+ 
+ /*NEW SCREEEEEN*/
+ @media only screen and (min-width: 1120px) and (max-width: 1268px) {
+  .header h1{
+    color: rgb(255, 0, 174);
+  }
+  .entire-header {
+    padding-top: 28%;
+    padding-left: 50px;
+  }
+
+  .title{
+    margin-left: 20px;
+  }
+  .intcontent table {
+    border-collapse: collapse;
+    border: none;
+    width: 600px;
+  }
+  .intcontent td {
+    padding: 10px;
+    text-align: center;
+  }
+  .intcontent tr:first-child td {
+    border-bottom: 1px solid #82a4b1; 
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .intcontent td:nth-child(1) {
+    border-right: 1px solid #82a4b1; 
+  }
+ }
+
+ @media only screen and (min-width: 1268px) {
+  .intcontent table {
+    border-collapse: collapse;
+    border: none;
+    width: 600px;
+  }
+  .intcontent td {
+    padding: 10px;
+    text-align: center;
+  }
+  .intcontent tr:first-child td {
+    border-bottom: 1px solid #82a4b1; 
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .intcontent td:nth-child(1) {
+    border-right: 1px solid #82a4b1; 
+  }
+
+
+ }
+ 
 .entire-header{
   padding-top: 28%;
 }
@@ -58,6 +226,14 @@ p,
   
   white-space: normal;
   margin: 0;
+}
+
+footer p{
+  color: rgb(175, 175, 191);
+  line-height: 20px;
+  font-size: 11px;
+  margin-left: 170px;
+  text-align: center;
 }
 small,
 .small {
@@ -452,24 +628,7 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
   font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
   color: white;
 }
-.intcontent table {
-  border-collapse: collapse;
-  border: none;
-  width: 600px;
-}
-.intcontent td {
-  padding: 10px;
-  text-align: center;
-}
-.intcontent tr:first-child td {
-  border-bottom: 1px solid #82a4b1; 
-  width: 200px;
-  padding-bottom: 20px;
-}
 
-.intcontent td:nth-child(1) {
-  border-right: 1px solid #82a4b1; 
-}
 
 .job-description{
   box-sizing: border-box;
