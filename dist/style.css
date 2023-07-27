@@ -369,6 +369,9 @@
     width: 650px;
     -webkit-font-smoothing: antialiased;
   }
+  .projsection, .projcontent{
+    height: 2100px;
+  }
   
   .secondjob, .thirdjob{
     box-sizing: border-box;
@@ -442,6 +445,53 @@
     width: 650px;
     -webkit-font-smoothing: antialiased;
   
+  }
+  .crunchtime{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    right: 280px;
+    top: 3060px;
+
+  }
+  .snakegame{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    top: 3800px;
+    right: 400px;
+  }
+  .techsection {
+    top: 3000px;
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    height: 660px;
+    line-height: 24px;
+    opacity: 1;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 270px;
+    padding-top: 100px;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.694, 0, 0.335, 1);
+    visibility: visible;
+    width: 1357px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-pack: center;
+    margin-top: 550px;
+    margin-left: 50px;
   }
  }
 
@@ -1140,17 +1190,7 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
   transition: transform 0.2s ease;
   right: 400px;
 }
-.crunchtime {
-  position: absolute;
-  width: 950px;
-  height: 625px;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  transition: transform 0.2s ease;
-  top: 3250px;
-  right: 280px;
-}
+
 
 .crunchproject_pic{
   width: 550px;
@@ -1204,17 +1244,6 @@ width: 550px;
 -webkit-font-smoothing: antialiased;
 }
 
-.snakegame{
-  position: absolute;
-  width: 950px;
-  height: 625px;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  transition: transform 0.2s ease;
-  top: 3900px;
-  right: 400px;
-}
 
 .dukeproject_pic{
   width: 750px;
