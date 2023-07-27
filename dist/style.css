@@ -241,6 +241,29 @@
     padding-bottom: 20px;
     left: 130px;
   }
+  .crunchtime{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    right: 280px;
+    top: 3260px;
+
+  }
+  .snakegame{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    top: 3920px;
+    right: 400px;
+  }
 
   .techcontent{
     padding-right: 150px;
@@ -249,7 +272,7 @@
     margin-left: 50px;
   }
   .techsection{
-    margin-top: 50px;
+    margin-top: 60px;
     padding-top: 0px;
   }
   .intsection{
