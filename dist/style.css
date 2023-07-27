@@ -660,6 +660,29 @@
     margin-left: 50px;
   }
 
+  .crunchtime{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    right: 280px;
+    top: 3060px;
+
+  }
+  .snakegame{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    top: 3800px;
+    right: 400px;
+  }
 
  }
  
