@@ -5,7 +5,7 @@
  
  @media only screen and (max-width: 600px) {
   .header h1{
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 55px;
   }
   .entire-header {
@@ -48,6 +48,7 @@
   
   .intcontent td:nth-child(1) {
     border-right: 1px solid #82a4b1; 
+    line-height: normal;
   }
   
   .expsection .title{
@@ -343,7 +344,7 @@
  
  @media only screen and (min-width: 600px) and (max-width: 768px) {
   .header h1{
-    color: rgb(0, 162, 255);
+    color: rgb(255, 255, 255);
     font-size: 55px;
   }
   .entire-header {
@@ -384,6 +385,7 @@
   
   .intcontent td:nth-child(1) {
     border-right: 1px solid #82a4b1; 
+    line-height: normal;
   }
   
   .expsection .title{
@@ -675,7 +677,7 @@
  
  @media only screen and (min-width: 768px) and (max-width: 1120px) {
   .header h1{
-    color: rgb(0, 255, 51);
+    color: rgb(255, 255, 255);
     font-size: 70px;
   }
   .entire-header {
@@ -704,6 +706,7 @@
   
   .intcontent td:nth-child(1) {
     border-right: 1px solid #82a4b1; 
+    line-height: normal;
   }
 
   .expsection .title{
@@ -971,10 +974,10 @@
   }
 }
  
- /*NEW SCREEEEEN*/
+ /*NEW SCREEN*/
  @media only screen and (min-width: 1120px) and (max-width: 1268px) {
   .header h1{
-    color: rgb(255, 0, 174);
+    color: rgb(255, 255, 255);
   }
   .entire-header {
     padding-top: 28%;
@@ -1001,6 +1004,7 @@
   
   .intcontent td:nth-child(1) {
     border-right: 1px solid #82a4b1; 
+    line-height: normal;
   }
   .job-description{
     box-sizing: border-box;
@@ -1192,6 +1196,7 @@
   
   .intcontent td:nth-child(1) {
     border-right: 1px solid #82a4b1; 
+    line-height: normal;
   }
   .job-description{
     box-sizing: border-box;
@@ -1478,12 +1483,10 @@ small.alt,
   margin-bottom: 13px;
 }
 
-/* Add a class to style the underline when the link is hovered */
 .navbaritems a:hover::after {
   transform: scaleX(1);
 }
 
-/* Add a class to style the underline when the link is active (clicked) */
 .navbaritems a.active::after {
   transform: scaleX(1);
 }
@@ -1652,10 +1655,6 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
     width: 100%;
   }
 
-
-
-
-
 .allsections {
   position: absolute; 
   margin-top: 25%; 
@@ -1823,9 +1822,6 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
   color: white;
 }
 
-
-
-
 .cool-list {
   list-style-type: none; /* Remove default bullet points */
   padding-left: 0; /* Remove default left padding for the list */
@@ -1856,7 +1852,7 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
   margin-top: 20px;
 
 }
-/* Assuming you have already reset default margins and paddings for the entire document */
+
 .projcontent p{
   color: rgb(210, 210, 210);
 }
@@ -1876,7 +1872,6 @@ ul.social__StyledSocialList-anu6nt-0.dVLQAC.fade-enter-done::after{
   padding-left: 40px;
   padding-bottom: 30px;
   padding-right: 20px;
-  /* Optional: To set a maximum width for the <figcaption> to avoid it covering the whole screen */
 }
 .project_name{
   padding-top: 20px;
@@ -1914,37 +1909,37 @@ left: 170px;
 
 .crunchtime .project_caption{
   background-color: rgb(2, 82, 115);
-border-bottom-left-radius: 8px;
-border-bottom-right-radius: 8px;
-border-top-left-radius: 8px;
-border-top-right-radius: 8px;
-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
-box-sizing: border-box;
-color: rgb(175, 175, 191);
-cursor: grab;
-direction: ltr;
-display: block;
-font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-font-size: 16px;
-font-weight: 300;
-height: 120px;
-line-height: 24px;
-max-height: 395px;
-max-width: 550px;
-padding-bottom: 20px;
-padding-left: 40px;
-position: absolute;
-right: 400px;
-text-align: left;
-top: 0px;
-transition-delay: 0s;
-transition-duration: 0.2s;
-transition-property: transform;
-transition-timing-function: ease;
-visibility: visible;
-white-space: nowrap;
-width: 550px;
--webkit-font-smoothing: antialiased;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+  box-sizing: border-box;
+  color: rgb(175, 175, 191);
+  cursor: grab;
+  direction: ltr;
+  display: block;
+  font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  height: 120px;
+  line-height: 24px;
+  max-height: 395px;
+  max-width: 550px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  position: absolute;
+  right: 400px;
+  text-align: left;
+  top: 0px;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: transform;
+  transition-timing-function: ease;
+  visibility: visible;
+  white-space: nowrap;
+  width: 550px;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -2081,21 +2076,6 @@ li.featured__StyledProject-ywnbqt-1.gvznfB {
   -webkit-box-align: center;
   -webkit-font-smoothing: antialiased;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 html,
 body {
