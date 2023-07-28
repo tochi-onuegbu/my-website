@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
   <div class="wrapper">
     <canvas id="stars"></canvas>
     <canvas id="yahia"></canvas>
@@ -27,18 +26,7 @@
               <h1><span>Hello! My name is<br></span>
                 <span><mark>Tochi Onuegbu</mark></span>
               </h1>
-
               <h2><span>I'm glad you're here!</span></h2>
-
-              <!--
-              <div class="links">
-                <a class="link color-green" href="#experiences" title="Explore my experiences">Background</a>
-                <a class="link color-yellow" href="#projects" title="Browse my projects">Interests</a>
-                <a class="link color-red" href="https://www.linkedin.com/in/tochi-onuegbu-83a60223b/"
-                  title="View my LinkedIn profile">Experience</a>
-                <a class="link color-yellow" href="#projects" title="Browse my projects">Projects</a>
-                <a class="link color-yellow" href="#projects" title="Browse my projects">TechStack</a>
-              </div> -->
             </div>
           </header>
         </div>
@@ -80,8 +68,6 @@
           </ul>
         </div>
 
-        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.86 8.17 6.82"></path>
-
         <div orientation="right" class="side__StyledSideElement-sc-1duznzb-0 jSIwrL">
           <div class="navbaritems">
             <a href="#background" title="Background">Background</a>
@@ -107,11 +93,11 @@
                 I became more keen about implementing designs that enhance the user experience. I enjoy developing applications that are accessible and
                 inclusive. </p>
 
-              <p>In my free time, you can find me dancing or enjoying the breeze at
+              <p>In my free time, you can find me playing the piano or enjoying the breeze at
                 a lake! </p>
           </section>
 
-          <!-- INTERESTS idk lol-->
+          <!-- INTERESTS -->
 
           <section id="interests" class="intsection">
             <div class="title">Interests</div>
@@ -139,7 +125,6 @@
                   </td>
                 </tr>
               </table>
-
           </section>
 
           <!-- EXPERIENCES -->
@@ -232,7 +217,6 @@
             <div class="title">Projects</div>
             <div class="projcontent">
 
-
               <div class="dukeattend">
                 <img class="dukeproject_pic"
                   src="/Users/tochionuegbu/Desktop/my website/dist/images/dukeattend-clearpxStudio-Project-3.png" alt="">
@@ -271,9 +255,6 @@
                     or it's game over!</p>
                 </figcaption>
               </div>
-
-
-
           </section>
 
           <!-- TECHSTACK -->
@@ -326,77 +307,60 @@
 
         </div>
 
-        <!-- footer -->
+        <!-- FOOTER -->
         <footer>
           <p>Designed and coded by Tochi Onuegbu. Design inspired by Brittany Chiang. Header wrapper credited to Yahia Refaiea.</p>
         </footer>
       </div>
 
-      <div class="loading" id="identity" title="Tochi Onuegbu identity">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <a class="loading" id="signature" href="https://beta.yahiarefaiea.com/" title="Go to home" target="_blank"></a>
-    </div>
   </div>
 
-  <!-- partial -->
+  <!-- JAVASCRIPT -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
   <script src='//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js'></script>
   <script src="./script.js"></script>
+  <script>
+    // Function to smoothly scroll to the target section with custom duration
+    function smoothScroll(target, duration) {
+      const headerOffset = 50; // Adjust this value if you have a fixed header/navbar
+      const targetElement = document.querySelector(target);
+      const targetPosition = targetElement.getBoundingClientRect().top;
+      const startPosition = window.pageYOffset;
+      const distance = targetPosition - headerOffset;
+      let startTime = null;
 
-  <!-- Add this script in your HTML, preferably just before the closing </body> tag -->
-<!-- Add this script in your HTML, preferably just before the closing </body> tag -->
-<script>
-  // Function to smoothly scroll to the target section with custom duration
-  function smoothScroll(target, duration) {
-    const headerOffset = 50; // Adjust this value if you have a fixed header/navbar
-    const targetElement = document.querySelector(target);
-    const targetPosition = targetElement.getBoundingClientRect().top;
-    const startPosition = window.pageYOffset;
-    const distance = targetPosition - headerOffset;
-    let startTime = null;
+      function scrollAnimation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const scrollStep = Math.round(easeInOutQuad(timeElapsed, startPosition, distance, duration));
+        window.scrollTo(0, scrollStep);
+        if (timeElapsed < duration) requestAnimationFrame(scrollAnimation);
+      }
 
-    function scrollAnimation(currentTime) {
-      if (startTime === null) startTime = currentTime;
-      const timeElapsed = currentTime - startTime;
-      const scrollStep = Math.round(easeInOutQuad(timeElapsed, startPosition, distance, duration));
-      window.scrollTo(0, scrollStep);
-      if (timeElapsed < duration) requestAnimationFrame(scrollAnimation);
+      // Easing function for smooth animation
+      function easeInOutQuad(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+      }
+
+      requestAnimationFrame(scrollAnimation);
     }
 
-    // Easing function for smooth animation
-    function easeInOutQuad(t, b, c, d) {
-      t /= d / 2;
-      if (t < 1) return c / 2 * t * t + b;
-      t--;
-      return -c / 2 * (t * (t - 2) - 1) + b;
-    }
-
-    requestAnimationFrame(scrollAnimation);
-  }
-
-  // Add a click event listener to each navigation link
-  const navLinks = document.querySelectorAll(".navbaritems a");
-  navLinks.forEach((link) => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      const target = link.getAttribute("href");
-      const duration = 1000; // Adjust this value to control the scrolling duration in milliseconds
-      smoothScroll(target, duration);
+    // Add a click event listener to each navigation link
+    const navLinks = document.querySelectorAll(".navbaritems a");
+    navLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        const target = link.getAttribute("href");
+        const duration = 1000; // Adjust this value to control the scrolling duration in milliseconds
+        smoothScroll(target, duration);
+      });
     });
-  });
-</script>
-
-
-
-  
-
+  </script>
 
 </body>
-
 </html>

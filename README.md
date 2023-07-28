@@ -1,6 +1,9 @@
 # Tochi Onuegbu's Personal Website
 
-A Pen created on CodePen.io. 
+Coded using HTML, CSS, and JavaScript
+
+Credits:
+* Header forked from a Pen created on CodePen.io. 
 Original URL: [https://codepen.io/Tochi-Onuegbu/pen/BaGBgrr](https://codepen.io/Tochi-Onuegbu/pen/BaGBgrr).
 
-Coded using HTML, CSS, and JavaScript
+* Website design inspired by Brittany Chiang
