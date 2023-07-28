@@ -13,8 +13,334 @@
  @media only screen and (min-width: 600px) and (max-width: 768px) {
   .header h1{
     color: rgb(0, 162, 255);
+    font-size: 55px;
   }
- }
+  .entire-header {
+    padding-top: 30%;
+    padding-left: 110px;
+    margin-top: 100px;
+  }
+  
+  .bgcontent{
+    padding-right: 380px;
+  }
+  .allsections .intsection{
+    margin-top: 270px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+  }
+  .intcontent table {
+    border-collapse: collapse;
+    border: none;
+    width: 60px;
+  }
+  .intcontent table p{
+    font-size: 14px;
+    line-height: normal;
+  }
+  .intcontent td {
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+    
+  }
+  .intcontent tr:first-child td {
+    border-bottom: 1px solid #82a4b1; 
+    width: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .intcontent td:nth-child(1) {
+    border-right: 1px solid #82a4b1; 
+  }
+  
+  .expsection .title{
+    margin-left: 100px;
+    width: 200px;
+    padding-right: 40px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: left;
+    margin-right: 0px;
+  }
+  
+  .cool-list li{
+    width: 600px;
+  }
+  
+  .firstjob .cool-list li, .secondjob .cool-list li, .thirdjob .cool-list li, .fourthjob .cool-list li{
+    padding-right: 290px;
+
+  }
+  .jobs .secondjob{
+    margin-top: 172px;
+  }
+
+  .jobs .thirdjob, .jobs .fourthjob{
+    margin-top: 92px;
+  }
+  .jobs .fourthjob{
+    margin-top: 122px;
+  }
+
+  .firstjob{
+    height: 400px;
+  }
+  .secondjob{
+    height: 308px;
+    margin-bottom: 52px;
+  }
+  .intcontent{
+    padding-right:900px;
+  }
+  .expcontent{
+    height: 1200px;
+  }
+  .job-description{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    flex-shrink: 0;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 295px;
+    max-width: 650px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+
+    margin-right: 190px;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .jobs{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 132px;
+    line-height: 24px;
+    margin-bottom: 100px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .firstjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 390px;
+    line-height: 24px;
+    margin-bottom: 45px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .secondjob, .thirdjob{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 250px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company-place-time{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    justify-content: space-between;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-box-pack: justify;
+    -webkit-font-smoothing: antialiased;
+  }
+  .company{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 95px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+  }
+  .time{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 126px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .position{
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: block;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 24px;
+    line-height: 24px;
+    visibility: visible;
+    width: 650px;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+  .projsection {
+    margin-top: 270px;
+  }
+  .projsection .title{
+    margin-left: 50px;
+  }
+  .dukeattend .dukeproject_pic{
+    width: 350px;
+    left: 112px;
+    margin-top: 150px;
+  }
+  .dukeattend .project_caption{
+    width: 380px;
+    height: 150px;
+    margin-left: 100px;
+    left: 30px;
+  }
+  .projcontent .snakegame .project_caption{
+    width: 380px;
+    height: 115px;
+    margin-left: 100px;
+    left: 30px;
+  }
+  .dukeattend .project_caption p, .crunchtime .project_caption p, .projcontent .snakegame .project_caption p{
+    font-size: 13px;
+    line-height: normal;
+
+  }
+  .projcontent .crunchtime .project_caption{
+    width: 350px;
+    height: 120px;
+    right: 580px;
+  }
+  .crunchtime .crunchproject_pic{
+    width: 350px;
+    left: 0px;
+    margin-top: 120px;
+  }
+  .snakegame .snaproject_pic{
+    width: 350px;
+    left: 112px;
+    margin-top: 30px;
+  }
+  .snakegame .project_caption{
+    width: 450px;
+    margin-left: 100px;
+    max-width: 450px;
+    max-height: 200px;
+    padding-bottom: 20px;
+    left: 130px;
+  }
+  .crunchtime{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    right: 280px;
+    top: 3370px;
+  
+  }
+  .snakegame{
+    position: absolute;
+    width: 950px;
+    height: 625px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    top: 3920px;
+    right: 400px;
+  }
+  
+  .techcontent{
+    padding-right: 280px;
+  }
+  .techsection .title{
+    margin-left: 50px;
+  }
+  .allsections .techsection{
+    margin-top: 100px;
+    padding-top: 0px;
+  }
+  .allsections .expsection{
+    padding-top: 0px;
+  }
+  
+  footer p{
+  color: rgb(175, 175, 191);
+  line-height: 20px;
+  font-size: 10px;
+  left:50px;
+  }
+  
+  .techsection {
+    top: 3000px;
+    box-sizing: border-box;
+    color: rgb(175, 175, 191);
+    display: flex;
+    font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    height: 660px;
+    line-height: 24px;
+    opacity: 1;
+    padding-bottom: 300px;
+    padding-left: 0px;
+    padding-right: 270px;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.694, 0, 0.335, 1);
+    visibility: visible;
+    width: 1357px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-pack: center;
+    margin-left: 10px;
+    padding-top: 430px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+
+}
+ 
  
  @media only screen and (min-width: 768px) and (max-width: 1120px) {
   .header h1{
@@ -311,7 +637,6 @@
     -webkit-box-pack: center;
     margin-left: 50px;
     padding-top: 430px;
-    
   }
 }
  
@@ -770,6 +1095,7 @@ footer p{
   line-height: 20px;
   font-size: 11px;
   margin-left: 170px;
+  margin-right: 100px;
   text-align: center;
 }
 small,
