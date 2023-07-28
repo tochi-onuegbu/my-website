@@ -1916,7 +1916,7 @@ left: 170px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
   box-sizing: border-box;
   color: rgb(175, 175, 191);
-  cursor: grab;
+  cursor: auto;
   direction: ltr;
   display: block;
   font-family: Apercu, "Sourse Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
@@ -2113,15 +2113,12 @@ img {
   overflow: hidden;
   height: 100%;
   min-height: 5850px;
-  cursor: move;
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
+  cursor: auto;
+  
 }
 .wrapper:active {
-  cursor: grabbing;
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
+  cursor: auto;
+ 
 }
 .wrapper .container {
   position: relative;
