@@ -13,6 +13,12 @@
     padding-left: 110px;
     margin-top: 100px;
   }
+  .loading{
+    margin-left: 110px;
+  }
+  #identity{
+    margin-left: 110px;
+  }
   .bgsection .title, .intsection .title, .projsection .title, .techsection .title{
     margin-right: 30px;
   }
@@ -347,6 +353,12 @@
     color: rgb(255, 255, 255);
     font-size: 55px;
   }
+  .loading{
+    margin-left: 110px;
+  }
+  #identity{
+    margin-left: 110px;
+  }
   .entire-header {
     padding-top: 30%;
     padding-left: 110px;
@@ -680,6 +692,12 @@
     color: rgb(255, 255, 255);
     font-size: 70px;
   }
+  .loading{
+    margin-left: 110px;
+  }
+  #identity{
+    margin-left: 110px;
+  }
   .entire-header {
     padding-top: 28%;
     padding-left: 110px;
@@ -982,6 +1000,12 @@
   .entire-header {
     padding-top: 28%;
     padding-left: 50px;
+  }
+  .loading{
+    margin-left: 48px;
+  }
+  #identity{
+    margin-left: 48px;
   }
 
   .title{
